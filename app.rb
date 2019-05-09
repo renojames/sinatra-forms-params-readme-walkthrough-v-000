@@ -6,7 +6,7 @@ class App < Sinatra::Base
     erb :food_form
   end
 
-  post '/favorite_food' do
+  post '/food' do
     "#{params}"
   end
 
